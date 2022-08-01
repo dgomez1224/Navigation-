@@ -1,0 +1,54 @@
+header {
+    background-color: navy;
+}
+
+header h1{ 
+    color: white;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 16px;
+    padding-top: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 52px;
+}
+
+header nav ul{
+    display: flex;
+    margin-top: 0;
+    padding:0 0 10px 0 ;
+    list-style: none;
+    justify-content: center;
+}
+
+header nav ul li a{
+    font-family: 'Montserrat';
+    padding-right: 10px;
+    color: white;
+    text-decoration: none;
+
+
+}
+
+@media all and (min-width: 700px){
+    header {
+        display: flex;
+        padding-left: 30px;
+        justify-content: space-between;
+    }
+
+    header h1{
+        margin: 14px 0;
+        padding-top: 0;
+    }
+
+    header nav {
+        margin-top: 35px;
+
+    }
+
+    header nav ul li a{
+        font-family: Montserrat;
+    }
+
+
+}
